@@ -7,7 +7,7 @@ body {
 header {
     background-color: #000033;
     color: #FFFFFF;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: Verdana, Arial, serif;
 }
 
 h1 {
@@ -21,7 +21,7 @@ nav {
 
 h2 {
     color: #3399CC;
-    font-family: Georgia, sans-serif;
+    font-family: Georgia, serif;
 }
 
 dt {
