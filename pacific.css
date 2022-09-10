@@ -23,11 +23,32 @@ h1 {
 
 nav {
     font-weight: bold;
-    background-color: #90C7E3;
-    padding-top: .5em;
+    /* background-color: #90C7E3; */
+    /* padding-top: .5em;
     padding-right: .5em;
     padding-bottom: .5em;
-    padding-left: 2em;
+    padding-left: 2em; */
+    float: left;
+    width: 160px;
+    padding: 0;
+
+}
+
+nav a:link { 
+    color: #FFFFFF; 
+}
+
+nav a:visited { 
+    color: #C2E0F0; 
+}
+
+nav a:hover { 
+    color: #CCCCCC; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 1em;
 }
 
 h2 {
@@ -50,10 +71,12 @@ footer {
     font-style: italic;
     text-align: center;
     padding: 1em;
+    background-color: #FFFFFF;
+    margin-left: 170px;
 }
 
 #wrapper {
-    background-color: #FFFFFF;
+    background-color: #000033;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
@@ -67,6 +90,10 @@ h3 {
 }
 
 main {
+    background-color: #FFFFFF;
+    margin-left: 170px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     padding-left: 2em;
     padding-right: 2em;
     display: block;
@@ -77,6 +104,7 @@ main {
     background-image: url(images/coast.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 170px;
 }
 
 #yurthero {
@@ -84,6 +112,7 @@ main {
     background-image: url(images/yurt.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 170px;
 }
 
 #trailhero {
@@ -91,8 +120,17 @@ main {
     background-image: url(images/trail.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 170px;
 }
 
 nav a {
     text-decoration: none;
+}
+
+* { 
+    box-sizing: border-box; 
+}
+
+header, nav, main, footer { 
+    display: block; 
 }
