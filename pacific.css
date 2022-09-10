@@ -23,27 +23,22 @@ h1 {
 
 nav {
     font-weight: bold;
-    /* background-color: #90C7E3; */
-    /* padding-top: .5em;
-    padding-right: .5em;
-    padding-bottom: .5em;
-    padding-left: 2em; */
     float: left;
     width: 160px;
     padding: 0;
 
 }
 
-nav a:link { 
-    color: #FFFFFF; 
+nav a:link {
+    color: #FFFFFF;
 }
 
-nav a:visited { 
-    color: #C2E0F0; 
+nav a:visited {
+    color: #C2E0F0;
 }
 
-nav a:hover { 
-    color: #CCCCCC; 
+nav a:hover {
+    color: #CCCCCC;
 }
 
 nav ul {
@@ -127,10 +122,13 @@ nav a {
     text-decoration: none;
 }
 
-* { 
-    box-sizing: border-box; 
+* {
+    box-sizing: border-box;
 }
 
-header, nav, main, footer { 
-    display: block; 
+header,
+nav,
+main,
+footer {
+    display: block;
 }
