@@ -163,7 +163,7 @@ th {
     text-align: left;
 }
 
-tr:nth-of-type(2) {
+tr:nth-of-type(even) {
     background-color: #F5FAFC;
 }
 
